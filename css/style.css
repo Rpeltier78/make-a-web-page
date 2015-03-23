@@ -1,0 +1,52 @@
+/* Font size changed to 25px to be easier to read, background-color to gray to make white and teal stand out more, and padding set to 25px to eastablish space between boxes*/
+
+body {
+	font-size: 25px;
+	background-color: gray;
+	padding: 25px;
+}
+/* Title block font-family,align,size changed to bring out title for doc. Width, margins and boarders were corrected to center title with body*/
+.Title {
+ font-family: cursive;
+  background-color: white; 
+	text-align: center;
+	Font-size: 25px;
+	border-radius: 20px;
+	border: 5px solid black;
+	Width: 95%;
+  margin: 15px;
+}
+
+/* Minor changes with font-family, and padding to boarder in titles*/
+
+.ContentTitle {
+  font-family: Helvetica;
+  Background-color: white;
+  border-radius: 20px;
+	border: 5px solid black;
+  Padding: 8px;
+}
+/* changed background-color, color and padding*/
+
+.ContentPoints {
+  Background-color: teal;
+  Color: white;
+  border-radius: 20px;
+	border: 5px solid black;
+  Padding: 8px;
+}
+
+.ContentText {
+  font-family: cursive;
+  text-align: center;
+}
+/* Added additional class to allow boarder and texts to be centered for this title block*/
+
+.ContentTitle2 {
+  Text-align: center;
+  font-family: Helvetica;
+  Background-color: white;
+  border-radius: 20px;
+	border: 5px solid black;
+  Padding: 8px;
+}
